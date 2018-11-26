@@ -2,8 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace TodoApi.Entities {
-  public class TodoItem {
-    [Key]
+  public class Todo {
     public int TodoId { get; set; }
     public string Title { get; set; }
     public DateTime DueDate { get; set; }
